@@ -6,7 +6,6 @@ This repository contains the project developed for the Computer Networks course 
 The MyFileTransferProtocol project is built upon the TCP protocol and it provides a set of functionalities for managing files and directories.
 
 ## Use cases
-
 The server program relies on two essential files:
 * whitelist.txt: This file should contain lines with the pattern <username>. These usernames are determined by the network administrator, and only users listed here are allowed to execute specific commands.
 * login.txt: This file should contain lines with the pattern <username> <password>. It enumerates the authorized users of the application, associating each user with a corresponding password.
